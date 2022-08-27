@@ -1,0 +1,9 @@
+// css para el footer
+
+
+.nav-link{
+    --bs-nav-link-color: #ffc107;
+    &:hover{
+    --bs-nav-link-hover-color: white;
+    }
+}

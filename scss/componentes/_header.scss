@@ -1,0 +1,29 @@
+// Css para el header
+
+.navbar{
+    background-image: #000000e6;
+}
+
+.nav-link{
+    --bs-navbar-active-color: #ffc107;
+    &:hover{
+    --bs-navbar-active-color: white;
+    }
+}
+
+.navbar-brand{
+    color: #ffc107;
+    &:hover{
+        color: white;
+    }
+}
+
+.btn {
+    color: #ffc107;
+}
+
+.btn-outline-success {
+    --bs-btn-border-color: #ffc107;
+    --bs-btn-hover-bg: #ffc107;
+    --bs-btn-hover-border-color: #141619;
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; }
+
+.mainContainer {
+  background-image: linear-gradient(to bottom, #ffc107, #FFE8D4); }
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.navbar {
+  background-image: #000000e6; }
+
+.nav-link {
+  --bs-navbar-active-color: #ffc107; }
+  .nav-link:hover {
+    --bs-navbar-active-color: white; }
+
+.navbar-brand {
+  color: #ffc107; }
+  .navbar-brand:hover {
+    color: white; }
+
+.btn {
+  color: #ffc107; }
+
+.btn-outline-success {
+  --bs-btn-border-color: #ffc107;
+  --bs-btn-hover-bg: #ffc107;
+  --bs-btn-hover-border-color: #141619; }
+
+.carousel-item {
+  padding: 30px 0; }
+
+.holaMundo {
+  margin-top: 20px;
+  color: #000000;
+  text-align: center;
+  height: 15px;
+  width: 100%;
+  align-items: center;
+  display: inline-block; }
+  .holaMundo h1 {
+    font-size: 80px;
+    font-weight: bold; }
+    .holaMundo h1:hover {
+      color: white;
+      transition: .2s;
+      transform: skew(-20deg); }
+
+.carousel-indicators [data-bs-target] {
+  background-color: black; }
+
+.card {
+  background-color: #000000e6;
+  color: #ffc107;
+  transition: all 500ms ease;
+  overflow: hidden; }
+
+.card img {
+  transition: all 500ms ease; }
+  .card img:hover {
+    transform: scale(1.08); }
+
+.card-text {
+  text-align: center; }
+
+.separacion {
+  min-height: 40vh; }
+
+.rowCards {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row; }
+
+.card-img-top {
+  height: 25vh; }
+
+.nav-link {
+  --bs-nav-link-color: #ffc107; }
+  .nav-link:hover {
+    --bs-nav-link-hover-color: white; }
